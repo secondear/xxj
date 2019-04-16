@@ -7,7 +7,7 @@ int GetMaxAddOfArray(int* arr, int subs)
 		return 0;
 
 	int Sum = arr[0];   
-	int MAX = arr[0];   
+	int MAX = 0;
 
 	for (int i = 1; i < subs; i++)
 	{
