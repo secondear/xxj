@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
-extern int  GetMaxAddOfArray(int* arr, int subs);
+int  GetMaxAddOfArray(int* arr, int subs);
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
