@@ -3,7 +3,7 @@
 using namespace std;
 int GetMaxAddOfArray(int* arr, int subs)
 {
-	if (arr == NULL || subs <= 0)
+	if (arr == NULL )
 		return 0;
 
 	int Sum = arr[0];   
